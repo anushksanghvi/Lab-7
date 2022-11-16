@@ -10,6 +10,10 @@ public class MyClass{
         System.out.println("f1");
     }
 
+    public void f2(int x, int y){
+        System.out.println("f2");
+    }
+
     public static void main(String args[]){
         MyClass ob = new MyClass();
         ob.mul(5, 10);
