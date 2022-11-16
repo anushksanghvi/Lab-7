@@ -6,6 +6,9 @@ public class MyClass{
         int c = a*b;
         System.out.println("Multilication is:" + c);
     }
+    public void f1(int x, int y){
+        System.out.println("f1");
+    }
 
     public static void main(String args[]){
         MyClass ob = new MyClass();
