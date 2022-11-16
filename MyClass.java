@@ -10,5 +10,6 @@ public class MyClass{
     public static void main(String args[]){
         MyClass ob = new MyClass();
         ob.mul(5, 10);
+        System.out.println("Testing");
     }
 }
