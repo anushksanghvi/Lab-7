@@ -26,5 +26,6 @@ public class MyClass{
         ob.mul(5, 10);
         ob.sum(5, 10);
         ob.subtraction(5, 10);
+        System.out.println("Testing");
     }
 }
