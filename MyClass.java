@@ -14,17 +14,10 @@ public class MyClass{
         System.out.println("Sum is:" + d);
     }
 
-    public void subtraction(int x, int y){
-        a=x;
-        b=y;
-        int d = a-b;
-        System.out.println("Subtraction  is:" + d);
-    }
 
     public static void main(String args[]){
         MyClass ob = new MyClass();
         ob.mul(5, 10);
         ob.sum(5, 10);
-        ob.subtraction(5, 10);
     }
 }
